@@ -8,9 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-<form action="sec" method="post">
-    <input type="text" name="word">
-    <input type="submit" value="搜索">
-</form>
+    <img src="http://img.wangleiseven.top/abc.jpg" alt="">
+    <img src="http://img.wangleiseven.top/abc1.jpg" alt="">
+    <img src="http://img.wangleiseven.top/abc2.jpg" alt="">
+
 </body>
 </html>
