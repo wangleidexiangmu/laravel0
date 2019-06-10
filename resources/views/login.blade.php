@@ -26,7 +26,7 @@
 </form>
 <div class="mui-button-row mui-input-group">
 
-    <button type="button" class="mui-btn mui-btn-warning" id='conter'><a href="http://test.1809a.com/ren">个人中心</a></button>
+    <button type="button" class="mui-btn mui-btn-warning" id='conter'><a href="http://test.1809a.com/reg">注册</a></button>
 
 </div>
 <script type="text/javascript">

@@ -30,3 +30,6 @@ Route::get('head','CheckController@head');
 //搜索
 Route::get('see','search\searchcontroller@check');
 Route::post('sec','search\searchcontroller@sec');
+Route::get('chat','search\searchcontroller@chat');
+Route::post('ajax','search\searchcontroller@ajax');
+Route::post('getphp','search\searchcontroller@getphp');

@@ -13,6 +13,8 @@ class LoginController extends Controller
         return view('login');
     }
     public function add(Request $request){
+        session_start();
+        $_SESSION['name']=$request->input('name');
         $data=json_encode($request->input());
         //var_dump($data);exit;
 
@@ -69,6 +71,7 @@ class LoginController extends Controller
           $key='uid:'.$name->uid;
            Redis::set($key,$token);
            Redis::expire($key,64800);
+
            $response=[
                'msg'=>'登录成功',
                 'token'=>$token,
